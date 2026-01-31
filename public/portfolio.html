@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio - Twenty20</title>
+    <meta name="description" content="Mohammed Ayaan - AI/ML Developer & Full Stack Engineer">
+    <meta name="author" content="Mohammed Ayaan">
+    <title>Mohammed Ayaan - Portfolio | Twenty20</title>
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
@@ -19,13 +21,15 @@
     <section class="hero">
         <div class="hero-content">
             <h1 class="hero-title">
-                Hello, I'm <span class="highlight" id="userName">Developer</span>
+                Hello, I'm <span class="highlight" id="userName">Mohammed Ayaan</span>
             </h1>
             <p class="hero-subtitle">
-                Full Stack Developer | Problem Solver | Tech Enthusiast
+                AI/ML Developer | Full Stack Engineer | B.Tech CSE @ MS Ramaiah University
             </p>
             <div class="hero-cta">
-                <a href="#projects" class="btn-primary">View Projects</a>
+                <a href="#projects" class="btn-primary">
+                    <span>View Projects</span>
+                </a>
                 <a href="#contact" class="btn-secondary">Contact Me</a>
             </div>
         </div>
@@ -39,12 +43,27 @@
             </h2>
             <div class="about-content">
                 <p>
-                    I'm a passionate developer with expertise in building modern web applications.
-                    I enjoy creating elegant solutions to complex problems and continuously learning new technologies.
+                    I'm Mohammed Ayaan, a passionate Computer Science Engineering student 
+                    at MS Ramaiah University of Applied Sciences, graduating in 2026. 
+                    I specialize in AI/ML development, with expertise in Generative AI, 
+                    Neuro-Symbolic AI, and Agentic RAG systems.
                 </p>
                 <p>
-                    With a strong foundation in both frontend and backend development,
-                    I focus on building scalable, user-friendly, and secure applications.
+                    During my AI Development Internship at Careator Technologies, Bengaluru 
+                    (May 2025 - Aug 2025), I developed a Proof of Concept for recruitment 
+                    automation using Generative AI, creating an AI-powered tool that 
+                    significantly enhanced hiring processes and demonstrated strong 
+                    problem-solving skills in a professional environment.
+                </p>
+                <p>
+                    I'm proficient in building end-to-end AI solutions using Python, Django, 
+                    React.js, Node.js, and cloud technologies. My work focuses on creating 
+                    intelligent, scalable systems that solve real-world problems through 
+                    innovative AI applications and robust software architecture.
+                </p>
+                <p>
+                    <strong>Education:</strong> B.Tech in Computer Science Engineering, 
+                    MS Ramaiah University of Applied Sciences, Bengaluru (Expected 2026)
                 </p>
             </div>
         </div>
@@ -58,24 +77,40 @@
             </h2>
             <div class="skills-grid">
                 <div class="skill-card">
-                    <div class="skill-icon">💻</div>
-                    <h3>Frontend Development</h3>
+                    <div class="skill-icon">🤖</div>
+                    <h3>AI & Machine Learning</h3>
                     <ul class="skill-list">
-                        <li>HTML5 & CSS3</li>
-                        <li>JavaScript (ES6+)</li>
-                        <li>React.js</li>
-                        <li>Responsive Design</li>
+                        <li>Generative AI (GPT-4)</li>
+                        <li>Neuro-Symbolic AI</li>
+                        <li>Agentic RAG Systems</li>
+                        <li>Neural Networks & Deep Learning</li>
+                        <li>CNNs (Computer Vision)</li>
+                        <li>Large Language Models (LLMs)</li>
                     </ul>
                 </div>
 
                 <div class="skill-card">
                     <div class="skill-icon">⚙️</div>
-                    <h3>Backend Development</h3>
+                    <h3>Backend & Databases</h3>
                     <ul class="skill-list">
-                        <li>Node.js</li>
-                        <li>Express.js</li>
-                        <li>MongoDB</li>
+                        <li>Python & Django</li>
+                        <li>Node.js & Express</li>
+                        <li>SQL & PostgreSQL</li>
+                        <li>MongoDB & Mongoose</li>
+                        <li>Qdrant Vector Database</li>
                         <li>RESTful APIs</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">💻</div>
+                    <h3>Frontend Development</h3>
+                    <ul class="skill-list">
+                        <li>React.js</li>
+                        <li>HTML5 & CSS3</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>Responsive Design</li>
+                        <li>Modern UI/UX</li>
                     </ul>
                 </div>
 
@@ -83,21 +118,12 @@
                     <div class="skill-icon">🛠️</div>
                     <h3>Tools & Platforms</h3>
                     <ul class="skill-list">
+                        <li>Docker & Microservices</li>
+                        <li>Google Cloud APIs</li>
                         <li>Git & GitHub</li>
-                        <li>Vercel Deployment</li>
-                        <li>VS Code</li>
-                        <li>Postman</li>
-                    </ul>
-                </div>
-
-                <div class="skill-card">
-                    <div class="skill-icon">🎨</div>
-                    <h3>Design & UX</h3>
-                    <ul class="skill-list">
-                        <li>Figma</li>
-                        <li>UI/UX Principles</li>
-                        <li>Accessibility</li>
-                        <li>Responsive Layouts</li>
+                        <li>Vercel & Cloud Deployment</li>
+                        <li>Unity & Blender</li>
+                        <li>FFmpeg & Vosk</li>
                     </ul>
                 </div>
             </div>
@@ -111,78 +137,221 @@
                 Featured <span class="highlight">Projects</span>
             </h2>
             <div class="projects-grid">
+                <!-- Project 1: TalentChat -->
                 <div class="project-card">
                     <div class="project-header">
-                        <h3>Portfolio Authentication System</h3>
+                        <h3>TalentChat - AI Recruitment Platform</h3>
+                        <span class="project-tag">AI/ML</span>
+                    </div>
+                    <p class="project-description">
+                        Architected an end-to-end AI recruitment system achieving 90%+ matching 
+                        accuracy by developing a sophisticated RAG pipeline (intent classification, 
+                        retrieval, re-ranking) using OpenAI GPT-4. Engineered a vectorized document 
+                        retrieval system using OpenAI embeddings and PostgreSQL to automate 
+                        candidate screening and generate contextual, role-specific interview questions.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">OpenAI GPT-4</span>
+                        <span class="tech-tag">Django</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                        <span class="tech-tag">RAG Pipeline</span>
+                        <span class="tech-tag">Google Cloud</span>
+                    </div>
+                </div>
+
+                <!-- Project 2: Servvia -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Servvia - AI Healthcare Platform</h3>
+                        <span class="project-tag">AI/ML</span>
+                    </div>
+                    <p class="project-description">
+                        Developed a multi-modal AI assistant using Neuro-Symbolic AI and Agentic 
+                        RAG to deliver highly personalized, evidence-based home remedies. Integrated 
+                        CNNs for real-time skin disease detection and automated lab report 
+                        summarization. Built a scalable, multi-language platform using Django and 
+                        Qdrant vector database.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Neuro-Symbolic AI</span>
+                        <span class="tech-tag">CNN</span>
+                        <span class="tech-tag">Django</span>
+                        <span class="tech-tag">Qdrant</span>
+                        <span class="tech-tag">Agentic RAG</span>
+                    </div>
+                </div>
+
+                <!-- Project 3: Speech-to-Text -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Offline Speech-to-Text Engine</h3>
+                        <span class="project-tag">AI/ML</span>
+                    </div>
+                    <p class="project-description">
+                        Built a fully offline speech recognition engine using the Vosk model to 
+                        ensure 100% data privacy without cloud APIs. Engineered a microservices 
+                        architecture with Node.js and Python, utilizing FFmpeg for automated audio 
+                        optimization. Privacy-focused voice AI solution.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Vosk</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">FFmpeg</span>
+                        <span class="tech-tag">Microservices</span>
+                    </div>
+                </div>
+
+                <!-- Project 4: Twenty20 Portfolio -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Twenty20 Portfolio System</h3>
                         <span class="project-tag">Full Stack</span>
                     </div>
                     <p class="project-description">
-                        Secure authentication system with login, registration, and protected routes,
-                        built using Node.js and deployed on Vercel.
+                        Secure portfolio management system with user authentication, protected 
+                        routes, and modern UI. Features JWT-based login/registration, MongoDB 
+                        integration, serverless deployment on Vercel, and responsive design for 
+                        desktop and mobile devices.
                     </p>
                     <div class="project-tech">
                         <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">MongoDB</span>
                         <span class="tech-tag">JWT</span>
                         <span class="tech-tag">Vercel</span>
+                        <span class="tech-tag">Express.js</span>
                     </div>
                 </div>
 
+                <!-- Project 5: AI Recruitment PoC (Internship) -->
                 <div class="project-card">
                     <div class="project-header">
-                        <h3>E-Commerce Interface</h3>
-                        <span class="project-tag">Frontend</span>
+                        <h3>Recruitment Automation PoC</h3>
+                        <span class="project-tag">Internship</span>
                     </div>
                     <p class="project-description">
-                        Responsive e-commerce UI with product listings, cart functionality,
-                        and clean animations.
+                        Developed during my internship at Careator Technologies. Created a 
+                        Proof of Concept for recruitment automation using Generative AI that 
+                        enhanced hiring processes. Collaborated on team projects to deliver 
+                        AI-driven solutions in a professional environment.
                     </p>
                     <div class="project-tech">
+                        <span class="tech-tag">Generative AI</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">LLMs</span>
+                        <span class="tech-tag">Automation</span>
+                    </div>
+                </div>
+
+                <!-- Project 6: Placeholder for Future Work -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>More Projects Coming Soon</h3>
+                        <span class="project-tag">In Progress</span>
+                    </div>
+                    <p class="project-description">
+                        Currently working on advanced AI/ML projects involving multi-agent systems, 
+                        computer vision applications, and cloud-native architectures. Stay tuned 
+                        for updates on GitHub!
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Docker</span>
                         <span class="tech-tag">React</span>
-                        <span class="tech-tag">CSS</span>
-                        <span class="tech-tag">APIs</span>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-header">
-                        <h3>Task Management API</h3>
-                        <span class="project-tag">Backend</span>
-                    </div>
-                    <p class="project-description">
-                        REST API with CRUD operations, authentication,
-                        and proper validation and error handling.
-                    </p>
-                    <div class="project-tech">
-                        <span class="tech-tag">Express</span>
-                        <span class="tech-tag">MongoDB</span>
-                        <span class="tech-tag">REST</span>
+                        <span class="tech-tag">Cloud AI</span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Experience Section (NEW) -->
+    <section class="section section-dark" id="experience">
+        <div class="container">
+            <h2 class="section-title">
+                Professional <span class="highlight">Experience</span>
+            </h2>
+            <div class="about-content" style="max-width: 900px;">
+                <div style="margin-bottom: 32px; padding: 24px; background: var(--primary-black); border-left: 4px solid var(--accent-red); border-radius: 8px;">
+                    <h3 style="font-size: 1.5rem; margin-bottom: 8px; color: var(--accent-red);">
+                        AI Development Intern
+                    </h3>
+                    <p style="color: var(--text-secondary); margin-bottom: 16px; font-size: 1.1rem;">
+                        <strong>Careator Technologies, Bengaluru</strong> | May 2025 - Aug 2025
+                    </p>
+                    <ul style="list-style: none; padding-left: 0;">
+                        <li style="margin-bottom: 12px; padding-left: 24px; position: relative;">
+                            <span style="position: absolute; left: 0; color: var(--accent-red);">▹</span>
+                            Developed a Proof of Concept (PoC) for recruitment automation using Generative AI
+                        </li>
+                        <li style="margin-bottom: 12px; padding-left: 24px; position: relative;">
+                            <span style="position: absolute; left: 0; color: var(--accent-red);">▹</span>
+                            Successfully created an AI-powered recruitment tool that enhanced hiring processes
+                        </li>
+                        <li style="margin-bottom: 12px; padding-left: 24px; position: relative;">
+                            <span style="position: absolute; left: 0; color: var(--accent-red);">▹</span>
+                            Collaborated on team projects to deliver AI-driven solutions in a professional setting
+                        </li>
+                        <li style="padding-left: 24px; position: relative;">
+                            <span style="position: absolute; left: 0; color: var(--accent-red);">▹</span>
+                            Showcased problem-solving skills and technical expertise in AI/ML development
+                        </li>
+                    </ul>
+                </div>
+
+                <div style="padding: 20px; background: var(--primary-black); border-left: 4px solid var(--text-secondary); border-radius: 8px;">
+                    <h3 style="font-size: 1.3rem; margin-bottom: 16px;">
+                        🎓 Certifications
+                    </h3>
+                    <ul style="list-style: none; padding-left: 0; color: var(--text-secondary);">
+                        <li style="margin-bottom: 10px; padding-left: 24px; position: relative;">
+                            <span style="position: absolute; left: 0;">✓</span>
+                            Neural Networks and Deep Learning - Coursera
+                        </li>
+                        <li style="padding-left: 24px; position: relative;">
+                            <span style="position: absolute; left: 0;">✓</span>
+                            Generative AI - Coursera
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Contact Section -->
-    <section class="section section-dark" id="contact">
+    <section class="section" id="contact">
         <div class="container">
             <h2 class="section-title">
                 Get In <span class="highlight">Touch</span>
             </h2>
             <div class="contact-content">
-                <p>I’m open to internships, full-time roles, and freelance opportunities.</p>
+                <p>
+                    I'm actively seeking full-time opportunities, internships, and collaborative 
+                    projects in AI/ML and Full Stack Development. Let's connect and build 
+                    innovative solutions together!
+                </p>
                 <div class="contact-links">
-                    <a href="mailto:your.email@example.com" class="contact-link">
+                    <a href="mailto:mohammedayaan2193@gmail.com" class="contact-link">
                         <span class="contact-icon">📧</span>
-                        <span>your.email@example.com</span>
+                        <span>mohammedayaan2193@gmail.com</span>
+                    </a>
+                    <a href="tel:+917349082100" class="contact-link">
+                        <span class="contact-icon">📱</span>
+                        <span>+91 7349082100</span>
                     </a>
                     <a href="https://github.com/M-Ayaan-21" target="_blank" rel="noopener noreferrer" class="contact-link">
                         <span class="contact-icon">💼</span>
-                        <span>GitHub</span>
+                        <span>GitHub - M-Ayaan-21</span>
                     </a>
-                    <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" class="contact-link">
+                    <a href="https://linkedin.com/in/mohammed-ayaan" target="_blank" rel="noopener noreferrer" class="contact-link">
                         <span class="contact-icon">🔗</span>
-                        <span>LinkedIn</span>
+                        <span>LinkedIn Profile</span>
                     </a>
+                </div>
+                <div style="margin-top: 32px; padding: 20px; background: var(--secondary-black); border-radius: 12px; border: 1px solid var(--border-color);">
+                    <p style="font-size: 0.95rem; color: var(--text-muted); margin: 0;">
+                        <strong>Languages:</strong> English, Hindi, Malayalam, Kannada<br>
+                        <strong>Location:</strong> Bengaluru, India
+                    </p>
                 </div>
             </div>
         </div>
@@ -190,7 +359,7 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <p>&copy; 2026 Twenty20 Portfolio. Built for assessment purposes.</p>
+        <p>&copy; 2026 Mohammed Ayaan - Twenty20 Portfolio Assessment. All Rights Reserved.</p>
     </footer>
 
     <script src="/js/portfolio.js"></script>
