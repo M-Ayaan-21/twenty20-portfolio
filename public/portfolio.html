@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Twenty20</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="nav-logo">TWENTY<span class="highlight">20</span></h1>
+            <button type="button" class="btn-logout" id="logoutBtn">Logout</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                Hello, I'm <span class="highlight" id="userName">Developer</span>
+            </h1>
+            <p class="hero-subtitle">
+                Full Stack Developer | Problem Solver | Tech Enthusiast
+            </p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn-primary">View Projects</a>
+                <a href="#contact" class="btn-secondary">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <h2 class="section-title">
+                About <span class="highlight">Me</span>
+            </h2>
+            <div class="about-content">
+                <p>
+                    I'm a passionate developer with expertise in building modern web applications.
+                    I enjoy creating elegant solutions to complex problems and continuously learning new technologies.
+                </p>
+                <p>
+                    With a strong foundation in both frontend and backend development,
+                    I focus on building scalable, user-friendly, and secure applications.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section section-dark" id="skills">
+        <div class="container">
+            <h2 class="section-title">
+                Technical <span class="highlight">Skills</span>
+            </h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">💻</div>
+                    <h3>Frontend Development</h3>
+                    <ul class="skill-list">
+                        <li>HTML5 & CSS3</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>React.js</li>
+                        <li>Responsive Design</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">⚙️</div>
+                    <h3>Backend Development</h3>
+                    <ul class="skill-list">
+                        <li>Node.js</li>
+                        <li>Express.js</li>
+                        <li>MongoDB</li>
+                        <li>RESTful APIs</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">🛠️</div>
+                    <h3>Tools & Platforms</h3>
+                    <ul class="skill-list">
+                        <li>Git & GitHub</li>
+                        <li>Vercel Deployment</li>
+                        <li>VS Code</li>
+                        <li>Postman</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <h3>Design & UX</h3>
+                    <ul class="skill-list">
+                        <li>Figma</li>
+                        <li>UI/UX Principles</li>
+                        <li>Accessibility</li>
+                        <li>Responsive Layouts</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+        <div class="container">
+            <h2 class="section-title">
+                Featured <span class="highlight">Projects</span>
+            </h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Portfolio Authentication System</h3>
+                        <span class="project-tag">Full Stack</span>
+                    </div>
+                    <p class="project-description">
+                        Secure authentication system with login, registration, and protected routes,
+                        built using Node.js and deployed on Vercel.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">JWT</span>
+                        <span class="tech-tag">Vercel</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>E-Commerce Interface</h3>
+                        <span class="project-tag">Frontend</span>
+                    </div>
+                    <p class="project-description">
+                        Responsive e-commerce UI with product listings, cart functionality,
+                        and clean animations.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">APIs</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Task Management API</h3>
+                        <span class="project-tag">Backend</span>
+                    </div>
+                    <p class="project-description">
+                        REST API with CRUD operations, authentication,
+                        and proper validation and error handling.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Express</span>
+                        <span class="tech-tag">MongoDB</span>
+                        <span class="tech-tag">REST</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section section-dark" id="contact">
+        <div class="container">
+            <h2 class="section-title">
+                Get In <span class="highlight">Touch</span>
+            </h2>
+            <div class="contact-content">
+                <p>I’m open to internships, full-time roles, and freelance opportunities.</p>
+                <div class="contact-links">
+                    <a href="mailto:your.email@example.com" class="contact-link">
+                        <span class="contact-icon">📧</span>
+                        <span>your.email@example.com</span>
+                    </a>
+                    <a href="https://github.com/M-Ayaan-21" target="_blank" rel="noopener noreferrer" class="contact-link">
+                        <span class="contact-icon">💼</span>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" class="contact-link">
+                        <span class="contact-icon">🔗</span>
+                        <span>LinkedIn</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Twenty20 Portfolio. Built for assessment purposes.</p>
+    </footer>
+
+    <script src="/js/portfolio.js"></script>
+</body>
+</html>
